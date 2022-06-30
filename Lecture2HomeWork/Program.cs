@@ -303,7 +303,7 @@ namespace Lecture2HomeWork
                             (x1,x2) = QuadraticEquation(a, b, c);
                             if(x1 == -1 && x2 == -1)
                             {
-                                Console.WriteLine("Действительных корней нет");
+                                Console.WriteLine("There is no valid X values");
                             }
                             else
                             {
