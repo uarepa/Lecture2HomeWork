@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace Lecture2HomeWork
 {
@@ -8,15 +7,9 @@ namespace Lecture2HomeWork
         class Lecture2
         {
 
-            //static string InputString(string one, string two)
-            //{
-            //    return
-            //}
             static int IfStatementTask(int a, int b)
             {
-                // The user enters 2 numbers (A and B). If A > B, result is A+B, if A=B, result is A * B, if A < B, result is A-B.
                 
-
                 int result = 0;
                 if (a > b)
                 {
@@ -42,7 +35,6 @@ namespace Lecture2HomeWork
 
             static int QuarterIdentifier(int x, int y)
             {
-                // 2.	The user enters 2 numbers (X and Y). Determine which quarter the point with coordinates (X, Y) belongs to.
 
                 int quarter = 0;
 
@@ -182,7 +174,6 @@ namespace Lecture2HomeWork
 
             static (int,int) QuadraticEquation(int a, int b, int c)
             {
-                // 4.	The user enters 3 numbers (A, B and C). Print to the console the solution(X-values) of the standard form quadratic equation, where AX^2+BX+C=0.
                 int d = 0;
                 int x1 = 0;
                 int x2 = 0;
