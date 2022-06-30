@@ -9,7 +9,6 @@ namespace Lecture2HomeWork
 
             static int IfStatementTask(int a, int b)
             {
-                
                 int result = 0;
                 if (a > b)
                 {
@@ -30,12 +29,10 @@ namespace Lecture2HomeWork
 
                 Console.Write("Result is: ");
                 return result;
-
             }
 
             static int QuarterIdentifier(int x, int y)
             {
-
                 int quarter = 0;
 
                 if( y == 0 && x == 0)
@@ -58,7 +55,6 @@ namespace Lecture2HomeWork
                     else
                         quarter = 4;
                 }
-
 
                 Console.Write("Quarter: ");
                 return quarter;
@@ -165,11 +161,7 @@ namespace Lecture2HomeWork
                     }
                 }
 
-
-
                 return (smallestNumber, middleNumber, highestNumber);
-
-                
             }
 
             static (int,int) QuadraticEquation(int a, int b, int c)
@@ -203,6 +195,7 @@ namespace Lecture2HomeWork
                     
                     return (-1, -1);
                 }
+
                 return (x1,x2);
             }
 
@@ -218,7 +211,6 @@ namespace Lecture2HomeWork
                     words += simpleNumberMap[0];
                     return words;
                 }
-                    
 
                 if (number > 0)
                 {
@@ -233,14 +225,12 @@ namespace Lecture2HomeWork
                             words += "-" + simpleNumberMap[number % 10];
                     }
                 }
+
                 return words;
-
-
             }
 
             static void Main(string[] args)
             {
-
                 Console.WriteLine("Please select task number: 1,2,3,4,5");
                 int taskNumber = Convert.ToInt32(Console.ReadLine());
                 switch (taskNumber)
@@ -339,9 +329,6 @@ namespace Lecture2HomeWork
                 {
                     Main(null);
                 }
-
-
-
             }
         }
     }
