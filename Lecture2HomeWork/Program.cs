@@ -214,7 +214,11 @@ namespace Lecture2HomeWork
                 string[] tensNumberMap = new[] { "zero", "ten", "twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety" };
 
                 if (number == 0)
-                    return "zero";
+                {
+                    words += simpleNumberMap[0];
+                    return words;
+                }
+                    
 
                 if (number > 0)
                 {
